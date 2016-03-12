@@ -1,0 +1,19 @@
+<html>
+<head>
+</head>
+<body>
+<div>
+    {$smarty.now|date_format:'%Y-%m-%d %H:%M:%S'}<br>
+    {foreach from=$data key=key item=item}
+    {$key}------{$item}<br>
+    {/foreach}
+    {foreach $data as $i=>$v}
+    {$i}<br>
+    {/foreach}
+    {for $i=0 to $data.lenght}
+    <h1>{$data[$i]}</h1>
+    {/for}
+</div>
+
+</body>
+</html>

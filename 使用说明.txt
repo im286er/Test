@@ -1,0 +1,9 @@
+1、Alipay文件夹放置 \ThinkPHP\Library\Vendor下
+
+2、Alipay.php为配置文件  这个你可以合并config.php。也可以不合并
+
+3、PayController.class 位付款的控制器
+
+<&:U('Pay/doalipay')&>
+
+QQ1674653
